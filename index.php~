@@ -1,0 +1,156 @@
+<!doctype html>
+
+<html lang="en">
+<head role="banner">
+       <meta charset="utf-8">
+    <h1>Cloud Computing HomeWork</h1>
+    <h2> Calculator</h2>
+    <link href="_css/styles.css" rel="stylesheet" type="text/css">
+    <script src="_script/calc.js"></script>
+    </head>
+
+<body>
+    <FORM NAME="Calc">
+<TABLE BORDER=4>
+<TR>
+<TD>
+<INPUT TYPE="text"   NAME="Input" Size="16">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+<br>
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+<br>
+<INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+<br>
+<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+<br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </TD>
+    </TR>
+    </TR>
+    </TABLE>
+    </FORM>
+              
+    </div>
+  </div>
+    
+   <aside role="complementary" class="languages">
+    <h3>Core Content</h3>
+     <div id="tabContainer">
+    <div id="tabs">
+      <ul>
+        <li id="tab1"><a href="#tabPanel1">ReadMe</a></li>
+        <li id="tab2"><a href="#tabPanel2">Instructions</a></li>
+        <li id="tab3"><a href="#tabPanel3">Professor</a></li>
+        <li id="tab4"><a href="#tabPanel4">Calculator</a></li>
+      </ul>
+    </div>
+    <div id="containers">
+      <div id="tabPanel1">
+        <h4>ReadMe</h4>
+        <p><strong>ReadMe.</strong> I am new to HTML, CSS and JavaScript so my design is somewhat basic.We have simple calculator that perform arithmetric calculations and in order to make the page alittle interesting, I added some profile information about the Professor (saw the profile while searching on uc.edu) and homework instruction(so I don't forget what I am supposed to do). There's a javascript file - calc.js that allows tab switching to enhance the look and feel, CSS stylesheet and html file.</p>
+      </div>
+      <div id="tabPanel2">
+        <h4>Instruction</h4>
+        <p><strong>Instructions.</strong> This is an individual assignment! Each student should submit a github repo link w/commit hash, and a link to your web application to Blackboard.This assignment will allow you to explore using Amazon AWS as a webcontent
+        provider.Your goal is to create a web site which is dynamic, but does not use an external datastore.A dynamic web site is one in which the output (HTML) changes based on what the userenters. Here are some examples of reasonable sites:● Simple calculator.Your site need not be flashy, but you should use at least one external file, such as a CSS file(s) or JavaScript.Your site’s code should be placed in a private github.uc.edu repository, with paul.talaga@uc.edu and backjo@ucmail.uc.edu as members for grading purposes. Allfiles should exist in the git repository. Be sure to include a simple README.md describing what your site does.</p>
+       </div>
+      <div id="tabPanel3">
+        <h4>Dr. Paul Talaga</h4>
+        <p><strong>Professor.</strong> Dr. Paul Talaga received dual B.S. Computer Science and Math degrees from St.Lawrence University in 2003.  At St.Lawrence he graduated with an Honors degree in CS doing research in advanced ray-tracing techniques. In 2006 he received a M.S in Computer Science from Syracuse University, followed by a Ph.D in Computer and Information Science in 2012.  His thesis was titled "Exploiting Data Locality in Dynamic Web Applications" under Dr. Stephen Chapin.  At Syracuse he published in CS Pedagoty, Web Security, and Web System Scalability.Dr. Talaga joined the Univeristy of Cincinnati's EECS department in 2012 as an Assistant Professor-Educator, tasked with instructing undergraduate and graduate students.  In addition to teaching, Dr. Talaga advises student groups, masters and MEng studens, and senior design projects.  For outreach, Dr. Talaga has advised the RevolutionUC hackathon planning group, which brings hundreds of students on campus for a weeked of coding many times per year.Dr. Talaga has been given numerous teaching awards including the 'Professor of the Semester' and 'Professor of the Year' from the college tribunal, as well as the 'William E Restemeyer Teaching Excellence Award' from the EECS Department in 2014..</p>
+      </div>
+          <div id="tabPanel4">
+        <h4>Calculator</h4>
+              <FORM NAME="Calc">
+<TABLE BORDER=4>
+<TR>
+<TD>
+<INPUT TYPE="text"   NAME="Input" Size="16">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'">
+<INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'">
+<INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'">
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '">
+<br>
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'">
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'">
+<INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '">
+<br>
+<INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'">
+<INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'">
+<INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'">
+<INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '">
+<br>
+<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''">
+<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+<INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '">
+<br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+
+
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </INPUT>
+    </TD>
+    </TR>
+    </TR>
+    </TABLE>
+    </FORM>
+              
+    </div>
+  </div>
+    </aside> 
+    
+    
+    </body>
+
+</html>
